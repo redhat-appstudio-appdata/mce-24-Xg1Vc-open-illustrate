@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: discovery-operator-tests
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: discovery-operator-tests
+    app.kubernetes.io/part-of: mce-24
+  name: discovery-operator-tests
+spec:
+  ports:
+  - port: 3000
+    targetPort: 3000
+  selector:
+    app.kubernetes.io/instance: discovery-operator-tests
+status:
+  loadBalancer: {}
