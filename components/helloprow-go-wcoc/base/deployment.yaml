@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: helloprow-go-wcoc
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: helloprow-go-wcoc
+    app.kubernetes.io/part-of: mce-24
+  name: helloprow-go-wcoc
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: helloprow-go-wcoc
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/instance: helloprow-go-wcoc
+    spec:
+      containers:
+      - image: image
+        imagePullPolicy: Always
+        name: container-image
+        ports:
+        - containerPort: 4321
+        resources:
+          requests:
+            cpu: 10m
+            memory: 50Mi
+status: {}
