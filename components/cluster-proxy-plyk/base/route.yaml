@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: cluster-proxy-plyk
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: cluster-proxy-plyk
+    app.kubernetes.io/part-of: mce-24
+  name: cluster-proxy-plyk
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: cluster-proxy-plyk
+    weight: null
+status: {}
