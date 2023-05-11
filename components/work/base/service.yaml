@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: work
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: work
+    app.kubernetes.io/part-of: mce-24
+  name: work
+spec:
+  ports:
+  - port: 1
+    targetPort: 1
+  selector:
+    app.kubernetes.io/instance: work
+status:
+  loadBalancer: {}
