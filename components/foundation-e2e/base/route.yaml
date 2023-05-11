@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: foundation-e2e
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: foundation-e2e
+    app.kubernetes.io/part-of: mce-24
+  name: foundation-e2e
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: foundation-e2e
+    weight: 100
+status: {}
