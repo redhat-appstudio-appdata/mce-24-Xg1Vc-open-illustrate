@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: clusterclaims-controller-crbt
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:c44bd5cf9cdae52c5c3a3745f604d1d5b792c6da2417ffc8aaaa8996e1c07e17
+        name: my-go
+        resources: {}
+status: {}
