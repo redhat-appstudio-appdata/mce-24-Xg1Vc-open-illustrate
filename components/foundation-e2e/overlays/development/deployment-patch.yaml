@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: foundation-e2e
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/foundation-e2e@sha256:f12b757c4748d8c1914c7ca452b575349839a9cf6b71f938bf01d0e60503f29a
+        name: container-image
+        resources: {}
+status: {}
