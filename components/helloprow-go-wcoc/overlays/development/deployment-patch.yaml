@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: helloprow-go-wcoc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/helloprow-go-wcoc@sha256:f8870dad84bade6abf879b1c2bb8e091602a92d9a068d34c681004a12507288a
+        name: container-image
+        resources: {}
+status: {}
