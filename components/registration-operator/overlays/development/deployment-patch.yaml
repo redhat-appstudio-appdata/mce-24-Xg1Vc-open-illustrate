@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: registration-operator
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/registration-operator@sha256:1c56917f1530869bc0e920787b2594362c6ac345488c820cc8dfe9b9e6bdc870
+        name: container-image
+        resources: {}
+status: {}
