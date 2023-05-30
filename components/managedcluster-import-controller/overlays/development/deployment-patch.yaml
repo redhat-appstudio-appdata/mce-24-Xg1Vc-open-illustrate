@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: managedcluster-import-controller
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managedcluster-import-controller@sha256:2834cf3f9d2ab693c90cf76721052c53aa7489b056e5ecec5faceb20625811e0
+        name: container-image
+        resources: {}
+status: {}
