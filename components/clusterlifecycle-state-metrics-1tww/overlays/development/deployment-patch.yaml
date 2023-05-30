@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: clusterlifecycle-state-metrics-1tww
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterlifecycle-state-metrics-1tww@sha256:052e2a787f16695271539b41bba449842198eba2ebd070983a69433f0200c185
+        name: my-go
+        resources: {}
+status: {}
