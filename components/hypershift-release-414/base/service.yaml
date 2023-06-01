@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: hypershift-release-414
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: hypershift-release-414
+    app.kubernetes.io/part-of: mce-24
+  name: hypershift-release-414
+spec:
+  ports:
+  - port: 9090
+    targetPort: 9090
+  selector:
+    app.kubernetes.io/instance: hypershift-release-414
+status:
+  loadBalancer: {}
