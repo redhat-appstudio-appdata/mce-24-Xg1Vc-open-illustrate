@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: helloprow-go-wcoc
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/helloprow-go-wcoc@sha256:5aa3baf7150fd1e9bc537eabfaaa90ca034d2fd2c838c1c26787c5e2dfc0f47f
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/helloprow-go-wcoc@sha256:7c11181d2e266ddb0b148a701220f7782f081a41a24e94ea71fd5a0113195c32
         imagePullPolicy: Always
         name: container-image
         ports:
