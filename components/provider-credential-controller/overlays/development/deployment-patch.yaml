@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: provider-credential-controller
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/provider-credential-controller@sha256:e08b50963b41162852e014b17848e200175166a6c4bc38be4f207efaee28647b
+        name: my-go
+        resources: {}
+status: {}
