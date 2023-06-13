@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: provider-credential-controller
     app.kubernetes.io/part-of: mce-24
-  name: provider-credential-contrkrfx
+  name: provider-credential-contrdkww
 spec:
   path: /
   port:
