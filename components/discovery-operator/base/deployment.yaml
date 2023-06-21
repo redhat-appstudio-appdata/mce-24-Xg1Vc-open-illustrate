@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: discovery-operator
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/discovery-operator@sha256:ac8ecf0497631198f0c89b7ed8b3a50c0673d7ff291435cf071792b7cdaa5baf
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/discovery-operator@sha256:dbe5ace91d4bcec7f9375bbb47296f767f332c8b43cada1aebe2d3065ca8d3b7
         imagePullPolicy: Always
         name: container-image
         ports:
