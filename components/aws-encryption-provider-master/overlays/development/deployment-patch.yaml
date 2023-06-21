@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: aws-encryption-provider-master
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/aws-encryption-provider-master@sha256:41b4614dacf9c74e0ca9ad648e123964babbc621e163bf8b123e64696beebb49
+        name: container-image
+        resources: {}
+status: {}

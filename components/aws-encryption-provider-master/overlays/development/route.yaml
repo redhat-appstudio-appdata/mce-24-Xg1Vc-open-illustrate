@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: aws-encryption-provider-master
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: aws-encryption-provider-master
+    app.kubernetes.io/part-of: mce-24
+  name: aws-encryption-provider-mgnet
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: aws-encryption-provider-master
+    weight: 100
+status: {}
