@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: managedcluster-import-controller
     app.kubernetes.io/part-of: mce-24
-  name: managedcluster-import-conb0nu
+  name: managedcluster-import-conc8aw
 spec:
   port:
     targetPort: 8080
