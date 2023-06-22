@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: aws-encryption-provider-master
     app.kubernetes.io/part-of: mce-24
-  name: aws-encryption-provider-maqkl
+  name: aws-encryption-provider-mahze
 spec:
   port:
     targetPort: 8080
