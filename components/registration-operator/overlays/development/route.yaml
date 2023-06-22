@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: registration-operator
     app.kubernetes.io/part-of: mce-24
-  name: registration-operatoreea8
+  name: registration-operatorcu4l
 spec:
   port:
     targetPort: 1
