@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: managed-serviceaccount-zbkr
     app.kubernetes.io/part-of: mce-24
-  name: managed-serviceaccount-zb7q7f
+  name: managed-serviceaccount-zbfhxo
 spec:
   port:
     targetPort: 8080
