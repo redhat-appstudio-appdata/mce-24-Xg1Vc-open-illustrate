@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: discovery-operator
     app.kubernetes.io/part-of: mce-24
-  name: discovery-operator06qo
+  name: discovery-operatorawnl
 spec:
   port:
     targetPort: 3000
