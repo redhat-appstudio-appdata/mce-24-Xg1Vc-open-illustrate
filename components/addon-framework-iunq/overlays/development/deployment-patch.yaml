@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-framework-iunq@sha256:085037a1d53441d64a68f0f7700b6b092117d3006b2fbcfd64126782de0f743a
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-framework-iunq@sha256:c04e1b97361c4a44ed8bf906289f5eb599ce425076f8dff2ac420bde88e1ab3a
         name: container-image
         resources: {}
 status: {}
