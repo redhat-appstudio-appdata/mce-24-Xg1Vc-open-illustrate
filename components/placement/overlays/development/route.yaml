@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: placement
     app.kubernetes.io/part-of: mce-24
-  name: placement7te8
+  name: placementae3g
 spec:
   port:
     targetPort: 1
