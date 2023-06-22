@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: addon-framework-iunq
     app.kubernetes.io/part-of: mce-24
-  name: addon-framework-iunqa6xj
+  name: addon-framework-iunq41qw
 spec:
   port:
     targetPort: 1
