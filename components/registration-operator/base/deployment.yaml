@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: registration-operator
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/registration-operator@sha256:d6af1a34992aee778b7bfd0dfbbbd830e0448367b52f6c9d58c41fa07e948852
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/registration-operator@sha256:1c56917f1530869bc0e920787b2594362c6ac345488c820cc8dfe9b9e6bdc870
         imagePullPolicy: Always
         name: container-image
         ports:
