@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: foundation-e2e
     app.kubernetes.io/part-of: mce-24
-  name: foundation-e2e0bub
+  name: foundation-e2eevvz
 spec:
   port:
     targetPort: 8080
