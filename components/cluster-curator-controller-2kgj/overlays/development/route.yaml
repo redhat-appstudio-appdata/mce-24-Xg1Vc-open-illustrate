@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cluster-curator-controller-2kgj
     app.kubernetes.io/part-of: mce-24
-  name: cluster-curator-controlleexgc
+  name: cluster-curator-controlle32jj
 spec:
   path: /
   port:
