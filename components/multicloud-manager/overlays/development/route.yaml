@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multicloud-manager
     app.kubernetes.io/part-of: mce-24
-  name: multicloud-manageri1h6
+  name: multicloud-manager8rpd
 spec:
   port:
     targetPort: 1
