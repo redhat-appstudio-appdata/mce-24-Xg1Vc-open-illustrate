@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: clusterlifecycle-state-metrics-1tww
     app.kubernetes.io/part-of: mce-24
-  name: clusterlifecycle-state-mefzyj
+  name: clusterlifecycle-state-mex4kn
 spec:
   path: /
   port:
