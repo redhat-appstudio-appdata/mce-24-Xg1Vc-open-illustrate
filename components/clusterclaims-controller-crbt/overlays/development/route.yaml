@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: clusterclaims-controller-crbt
     app.kubernetes.io/part-of: mce-24
-  name: clusterclaims-controller-g3oq
+  name: clusterclaims-controller-2s82
 spec:
   path: /
   port:
