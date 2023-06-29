@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-addon-ezmt@sha256:7dbd34abf8a12efcddf56620cc13e711198950f7317d576b983d45fdc265d188
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-addon-ezmt@sha256:4330686deb477dd553a2c96757bea3edbc67efb54be8a80a7106cf9a3bd876fc
         name: container-image
         resources: {}
 status: {}
