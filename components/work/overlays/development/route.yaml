@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: work
     app.kubernetes.io/part-of: mce-24
-  name: worknbk4
+  name: workf3gr
 spec:
   port:
     targetPort: 1
