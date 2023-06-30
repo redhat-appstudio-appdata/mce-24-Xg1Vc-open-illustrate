@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hypershift-addon-operator-backplane-24
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/hypershift-addon-operator-backplane-24@sha256:b3a363494f26237f7adb12eb2dac47dec62367fa2195055a14764a8e15a73551
+        name: container-image
+        resources: {}
+status: {}
