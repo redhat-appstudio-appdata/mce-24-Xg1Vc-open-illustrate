@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cluster-image-set-controller-pbpe
     app.kubernetes.io/part-of: mce-24
-  name: cluster-image-set-controlqn26
+  name: cluster-image-set-controlamdb
 spec:
   port:
     targetPort: 8080
