@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cluster-image-set-controller-pbpe
     app.kubernetes.io/part-of: mce-24
-  name: cluster-image-set-controltmdm
+  name: cluster-image-set-controlaikf
 spec:
   port:
     targetPort: 8080
