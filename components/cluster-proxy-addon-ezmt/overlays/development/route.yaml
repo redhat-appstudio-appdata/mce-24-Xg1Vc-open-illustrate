@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cluster-proxy-addon-ezmt
     app.kubernetes.io/part-of: mce-24
-  name: cluster-proxy-addon-ezmtxa1g
+  name: cluster-proxy-addon-ezmti4kq
 spec:
   port:
     targetPort: 8081
