@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cluster-proxy-addon-ezmt
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-addon-ezmt@sha256:72cd03f3b0b92c8e6ec178d8b4ac06376a4d9293a37a0d45e5dd465194b3f487
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-addon-ezmt@sha256:7dbd34abf8a12efcddf56620cc13e711198950f7317d576b983d45fdc265d188
         imagePullPolicy: Always
         name: container-image
         ports:
