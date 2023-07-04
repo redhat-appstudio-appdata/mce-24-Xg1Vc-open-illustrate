@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: helloprow-go-wcoc
     app.kubernetes.io/part-of: mce-24
-  name: helloprow-go-wcoc
+  name: helloprow-go-wcochugk
 spec:
   port:
     targetPort: 4321
