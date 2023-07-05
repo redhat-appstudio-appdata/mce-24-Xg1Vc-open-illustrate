@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cluster-image-set-controller-pbpe
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-image-set-controller-pbpe@sha256:0540d4c342fb6bebcd058b502397931ca2d7aa1f6b51cec735103fec169a6d11
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-image-set-controller-pbpe@sha256:189db84a033cfd60e8023f52f2aefa958ed9ec25f2211ebb4555c53b92fc3959
         imagePullPolicy: Always
         name: container-image
         ports:
