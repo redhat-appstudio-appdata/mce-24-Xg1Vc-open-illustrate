@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: console
     app.kubernetes.io/part-of: mce-24
-  name: consoleboo8
+  name: consoleoz7v
 spec:
   path: /
   port:
