@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/multicloud-manager@sha256:82f339647b875163c09691ac7f0fd7cc111c042fc071e61f0bcff56377c94732
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/multicloud-manager@sha256:c1092ea32a195318d715fb3f7c5117cdea9007c176e323b3377ef3be9681fbb8
         name: container-image
         resources: {}
 status: {}
