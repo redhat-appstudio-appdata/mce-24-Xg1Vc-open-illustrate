@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/hypershift-addon-operator-backplane-24@sha256:b3a363494f26237f7adb12eb2dac47dec62367fa2195055a14764a8e15a73551
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/hypershift-addon-operator-backplane-24@sha256:70cd3c720525b99f77f1bfaaf5001a7dd6a39bfb527bed41a2e630cffc37554f
         name: container-image
         resources: {}
 status: {}
