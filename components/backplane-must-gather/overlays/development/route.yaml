@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: backplane-must-gather
     app.kubernetes.io/part-of: mce-24
-  name: backplane-must-gather34iv
+  name: backplane-must-gatherlajw
 spec:
   port:
     targetPort: 8080
