@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/provider-credential-controller@sha256:1a9c92a27a0d8233c6d80bac33199b929046247b38670762a8449760b4f25a06
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/provider-credential-controller@sha256:6bb8a4e2de899094c1e7f3d87ff10c60512f31c454dc8ba42f6ae5e87a439c26
         name: my-go
         resources: {}
 status: {}
