@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: work
     app.kubernetes.io/part-of: mce-24
-  name: workgg6w
+  name: work8y0n
 spec:
   port:
     targetPort: 1
