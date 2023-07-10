@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: managedcluster-import-controller
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managedcluster-import-controller@sha256:bcb1bbc00690bac1c75531c42caca9c6caf9e45ec3a682bf0d758510fa81411f
         imagePullPolicy: Always
         name: container-image
         ports:
