@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: hypershift-addon-operator-backplane-24
     app.kubernetes.io/part-of: mce-24
-  name: hypershift-addon-operator0lyv
+  name: hypershift-addon-operatormqgt
 spec:
   port:
     targetPort: 2
