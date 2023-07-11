@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: foundation-e2e
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/foundation-e2e@sha256:9c484a30e872c84d0f9e716976dec91363effa8a85a1f209068610b06258fd3c
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/foundation-e2e@sha256:baa91f98454cccf9440e7df0c90563286a9b3946080ccb380af49517ebc36237
         imagePullPolicy: Always
         name: container-image
         ports:
