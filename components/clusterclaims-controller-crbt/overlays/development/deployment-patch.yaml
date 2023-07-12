@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: clusterclaims-controller-crbt
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:6979d44253187286897964e31749ba615431533c2d5fa0b92160a0bc5d189775
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:2881c0e4025a92cc50b426cdb99414d78119ba61fbe7d80c7d4dbac700e0efef
         name: my-go
         resources: {}
 status: {}
