@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: backplane-operator-qa7p
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/backplane-operator-qa7p@sha256:ac03b49f3770b9745672352875416b1a458e41c133ce2e7a0941752ea55a5549
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/backplane-operator-qa7p@sha256:47ccb8ec0df65eba3c3705bfb1edc41a10e4ddb6b3c51567e3a174bb963edd0b
         imagePullPolicy: Always
         name: container-image
         ports:
