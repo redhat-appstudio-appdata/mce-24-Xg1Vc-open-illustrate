@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: managedcluster-import-controller
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
