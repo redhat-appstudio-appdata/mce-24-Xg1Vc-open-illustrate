@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: clusterlifecycle-state-metrics-1tww
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterlifecycle-state-metrics-1tww@sha256:71a3d1c959857b7abb8e37ea130d8134904a4546be9dd9c1bce32ba79315fe57
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterlifecycle-state-metrics-1tww@sha256:a2842be65be18f1787900112062b5d59ed841e7f1ecdb2b3fbc093b3c642c3ad
         name: my-go
         resources: {}
 status: {}
