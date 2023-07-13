@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: cluster-curator-controller-2kgj
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-curator-controller-2kgj@sha256:e6bd25d55197683641c62e51e0475d71b53d9c3fd7b11da8b26b8c150ca77dfa
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-curator-controller-2kgj@sha256:a2a00b71c4f8199202fe0e88711276e9df5f550c7554dbaf2713d078a8bbca28
         name: my-go
         resources: {}
 status: {}
