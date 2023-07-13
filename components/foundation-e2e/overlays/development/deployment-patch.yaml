@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: foundation-e2e
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
