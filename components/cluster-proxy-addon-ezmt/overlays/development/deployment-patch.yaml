@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: cluster-proxy-addon-ezmt
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-addon-ezmt@sha256:36d8e6ad7b47ca10da7f1423cdc5b387d25328846051074a835aab73663e0ba4
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-addon-ezmt@sha256:7056bd66642f6f87418345a929809bed711996bc6922d4ffd2db8c8610eb7d42
         name: container-image
         resources: {}
 status: {}
