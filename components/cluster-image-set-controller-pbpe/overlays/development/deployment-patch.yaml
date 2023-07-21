@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-image-set-controller-pbpe@sha256:189db84a033cfd60e8023f52f2aefa958ed9ec25f2211ebb4555c53b92fc3959
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-image-set-controller-pbpe@sha256:bc18c7e2c9948fa0ec290c62f0e6e782735420910f2f1d4edb00625473f0bc78
         name: container-image
         resources: {}
 status: {}
