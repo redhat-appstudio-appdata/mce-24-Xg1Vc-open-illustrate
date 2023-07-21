@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-curator-controller-2kgj@sha256:a2a00b71c4f8199202fe0e88711276e9df5f550c7554dbaf2713d078a8bbca28
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-curator-controller-2kgj@sha256:5b343cdaae9fcaa7efe9c1d48f7163dedc1d5e0a289b30253e7ad7301fdd66b1
         name: my-go
         resources: {}
 status: {}
