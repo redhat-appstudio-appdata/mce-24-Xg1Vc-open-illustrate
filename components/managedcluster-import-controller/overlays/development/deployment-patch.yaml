@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managedcluster-import-controller@sha256:bcb1bbc00690bac1c75531c42caca9c6caf9e45ec3a682bf0d758510fa81411f
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managedcluster-import-controller@sha256:2834cf3f9d2ab693c90cf76721052c53aa7489b056e5ecec5faceb20625811e0
         name: container-image
         resources: {}
 status: {}
