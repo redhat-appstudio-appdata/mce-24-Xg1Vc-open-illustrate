@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managed-serviceaccount-zbkr@sha256:9d1fa54c984e72bc4744bd6c2d746cdea853dcd6b6644b9b5e49af9f32531962
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managed-serviceaccount-zbkr@sha256:71b93fabc035f90be51c427238eff9fcfdbd199808a46dc88b903e3d8f946799
         name: container-image
         resources: {}
 status: {}
