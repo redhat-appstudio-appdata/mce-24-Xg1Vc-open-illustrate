@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:157bd296bf96c321c5ec38b4825ae75173a1b06b4d5a090c13d7ce899d11c16f
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:2881c0e4025a92cc50b426cdb99414d78119ba61fbe7d80c7d4dbac700e0efef
         name: my-go
         resources: {}
 status: {}
