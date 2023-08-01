@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/aws-encryption-provider-master@sha256:a0aa851192c087f522a885374e156a404cc0064de95225bcd849d451c55df19c
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/aws-encryption-provider-master@sha256:41b4614dacf9c74e0ca9ad648e123964babbc621e163bf8b123e64696beebb49
         name: container-image
         resources: {}
 status: {}
