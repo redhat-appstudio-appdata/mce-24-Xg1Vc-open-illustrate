@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: clusterclaims-controller-crbt
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:a5d947ee2075a7e4bdcf2dc8bf44d7e712f1ea3a5da4eb045ec05511f072c71d
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterclaims-controller-crbt@sha256:105658a99eeff7c341fa836a7b9e5ca7fbd4d9c8e76d46eb794a9cbdcbe9d308
         name: my-go
         ports:
         - containerPort: 8081
