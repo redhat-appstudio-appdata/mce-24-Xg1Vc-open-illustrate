@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/backplane-must-gather@sha256:4f804428f7fe982b746bfba56ef177ee64bd0197e9dc0a0650aebdac7375c943
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/backplane-must-gather@sha256:05992dfe0cfc3aea12898980877cbb1e2fb35e427fafe6d0147f51463f8fe4b9
         name: container-image
         resources: {}
 status: {}
