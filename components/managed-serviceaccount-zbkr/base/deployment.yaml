@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: managed-serviceaccount-zbkr
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managed-serviceaccount-zbkr@sha256:d866f0374b0234a4f95175228246c2208fc1dcae508a9d4a37957415f238ae62
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/managed-serviceaccount-zbkr@sha256:ffd2919c0b02347b6d2cfb44fac7dd2ce2ce3dfc221ee45eb6fe7c01881f786a
         imagePullPolicy: Always
         name: container-image
         ports:
