@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: work
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/work@sha256:4594b78aa1b11848862de5e964fcdcabcd99c160a450ce990c584499b0b2ee87
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/work@sha256:801a5de314460c9ddfa9d5723784d59eafc91d324c1735a71858881515a19b41
         imagePullPolicy: Always
         name: container-image
         ports:
