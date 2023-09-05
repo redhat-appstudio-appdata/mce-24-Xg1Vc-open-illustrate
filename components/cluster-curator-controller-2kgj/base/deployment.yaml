@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: cluster-curator-controller-2kgj
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-curator-controller-2kgj@sha256:79abbc9214667aef31fd58c98ed04f7a87af2c95881641bb22bbbde5f8071874
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-curator-controller-2kgj@sha256:481cbb7bc9e6f23137038b54ac53d3e3c9f53f772a73e9e00dc19320c59ec497
         name: my-go
         ports:
         - containerPort: 8081
