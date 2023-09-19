@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: work
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: work
+    app.kubernetes.io/part-of: mce-24
+  name: workmkdw
+spec:
+  path: /
+  port:
+    targetPort: 1
+  to:
+    kind: Service
+    name: work
+    weight: null
+status: {}
