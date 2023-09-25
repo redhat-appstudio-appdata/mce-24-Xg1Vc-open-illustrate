@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hypershift-addon-operator-backplane-24
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/hypershift-addon-operator-backplane-24@sha256:70cd3c720525b99f77f1bfaaf5001a7dd6a39bfb527bed41a2e630cffc37554f
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/hypershift-addon-operator-backplane-24@sha256:88782d04d7b1d25a0157266aece01c95e1944b23468cabe62be24f00b6954ec7
         imagePullPolicy: Always
         name: container-image
         ports:
