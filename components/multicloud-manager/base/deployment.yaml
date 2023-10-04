@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multicloud-manager
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/multicloud-manager@sha256:ecdf181f29399f6462f42974f5d5264a96c066bbd439a0b6d97a342cbc7461ee
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/multicloud-manager@sha256:1ac76b19427da0c6b87bd0f3e9492aad6e6d160eaf306ad2939f017955916cf9
         imagePullPolicy: Always
         name: container-image
         ports:
