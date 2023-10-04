@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: provider-credential-controller
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/provider-credential-controller@sha256:0934e5d53d3f940f518dcfce38b9f1db26e0a1b844ab3001238048250d9db9fa
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/provider-credential-controller@sha256:88236ed6ccedf1aaccd9995d1cdd7700b9461a8fecb7192a31c3e212b1c5a76f
         name: my-go
         ports:
         - containerPort: 8081
