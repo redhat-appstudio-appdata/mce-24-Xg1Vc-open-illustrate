@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: backplane-must-gather
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/backplane-must-gather@sha256:05992dfe0cfc3aea12898980877cbb1e2fb35e427fafe6d0147f51463f8fe4b9
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/backplane-must-gather@sha256:5d47c476bfe17ca4d9ecd0398769e5f0ead9f8e94ada9cb4645b4ba059efb6bc
         imagePullPolicy: Always
         name: container-image
         ports:
