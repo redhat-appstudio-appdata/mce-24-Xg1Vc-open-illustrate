@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: cluster-proxy-plyk
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/cluster-proxy-plyk@sha256:8708e635752deb9939871f436e95caaa6d255013d902f9e718a56e626cfc6796
         name: my-go
         ports:
         - containerPort: 8081
