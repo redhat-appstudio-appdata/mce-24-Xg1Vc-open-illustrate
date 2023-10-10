@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/placement@sha256:7b17f15523361f72368f241052d7f114bfa5c7ea7f836971908ac22a00738a9e
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/placement@sha256:51a40a2bd00decf6b406f4771f82bdca77a75098c06d870e082fccb5d7a45e24
         name: my-go
         resources: {}
 status: {}
