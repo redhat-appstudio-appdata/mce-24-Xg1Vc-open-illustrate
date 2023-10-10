@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: addon-framework-iunq
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-framework-iunq@sha256:7cf77edfce9673e137c640b2e1e60d106296777426de71fd336a20d7746fcd81
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-framework-iunq@sha256:bccd3b60c4bc89ae81bb6d07b5b55fcd8d17f013dbcf9cfd52d82a00030caad2
         imagePullPolicy: Always
         name: container-image
         ports:
