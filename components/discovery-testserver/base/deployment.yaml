@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: discovery-testserver
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/discovery-testserver@sha256:d16dec032615187022abbc70c3c7fe7a61e8059c5cef31db633a6e48be9bae44
         imagePullPolicy: Always
         name: container-image
         ports:
