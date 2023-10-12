@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: console
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/console@sha256:d072b4d87dfb8bec8705c2924528caa6457957b22b1a441332836d3720e38f24
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/console@sha256:c625c2e4f29055b08b8b97686044ca19766709528f235e9f6b7fe7dbbda0cc10
         name: my-nodejs
         ports:
         - containerPort: 3001
