@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: discovery-operator-tests
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/discovery-operator-tests@sha256:f03acf2241049557b3abf3b51f2632268f542cb0a84a9b4559c2acb41abd5f2f
+        name: container-image
+        resources: {}
+status: {}
