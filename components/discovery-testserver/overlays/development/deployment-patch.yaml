@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: discovery-testserver
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/discovery-testserver@sha256:d16dec032615187022abbc70c3c7fe7a61e8059c5cef31db633a6e48be9bae44
+        name: container-image
+        resources: {}
+status: {}
