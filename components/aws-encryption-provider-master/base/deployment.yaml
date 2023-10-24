@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: aws-encryption-provider-master
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/aws-encryption-provider-master@sha256:ba8a280693d6b0d12188a7eb708b0facddebe656e52d8af8f60dd2aab735e7da
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/aws-encryption-provider-master@sha256:e9d062de70e766d21ed98fe0d5ce5c1b47001e5392b5caf570f75bec7844c184
         imagePullPolicy: Always
         name: container-image
         ports:
