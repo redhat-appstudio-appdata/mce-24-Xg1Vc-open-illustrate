@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kube-rbac-proxy
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/kube-rbac-proxy@sha256:d2a37bf27b5899de44cb490621e86321be1edbc569afdcc3d3cbf03f5fcfee9d
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/kube-rbac-proxy@sha256:6ba86136ea86a5008c68708b6ff64da06b7b277cd76eed678c362354a6ff3d0d
         imagePullPolicy: Always
         name: container-image
         ports:
