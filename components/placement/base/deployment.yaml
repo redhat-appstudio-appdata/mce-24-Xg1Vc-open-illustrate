@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: placement
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/placement@sha256:51a40a2bd00decf6b406f4771f82bdca77a75098c06d870e082fccb5d7a45e24
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/placement@sha256:e7988afa67e665b806b29ed6b891f169c648e6595a0be9ae597409278ccc8d61
         name: my-go
         ports:
         - containerPort: 8081
