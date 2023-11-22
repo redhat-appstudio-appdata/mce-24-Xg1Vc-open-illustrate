@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: addon-manager
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-manager@sha256:1c6352853505fb957f4321501a95c718637100fff760e251741d99a38e43e502
+        name: my-go
+        resources: {}
+status: {}
