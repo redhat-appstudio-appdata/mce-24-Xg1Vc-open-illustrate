@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: addon-manager
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-manager@sha256:1c6352853505fb957f4321501a95c718637100fff760e251741d99a38e43e502
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-manager@sha256:e872ba2431ae5d678155b23867967c6abefb8d22f2080fccba5073d49561bd44
         name: my-go
         ports:
         - containerPort: 8081
