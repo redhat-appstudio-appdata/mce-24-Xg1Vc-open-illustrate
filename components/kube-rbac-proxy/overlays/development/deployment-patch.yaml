@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kube-rbac-proxy
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/kube-rbac-proxy@sha256:6ba86136ea86a5008c68708b6ff64da06b7b277cd76eed678c362354a6ff3d0d
+        name: container-image
+        resources: {}
+status: {}
