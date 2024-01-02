@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: cluster-proxy-plyk
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
