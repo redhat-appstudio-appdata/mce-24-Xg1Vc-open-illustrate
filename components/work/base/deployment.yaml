@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: work
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/work@sha256:0bb75415b0d965d8264c7527c419c883173736b9a63c48141b9f75184adcab2f
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/work@sha256:64c6fe106b76701158601dd1aaca9b06b903b77973f7c77412db8246dedce7cc
         name: my-go
         ports:
         - containerPort: 8081
