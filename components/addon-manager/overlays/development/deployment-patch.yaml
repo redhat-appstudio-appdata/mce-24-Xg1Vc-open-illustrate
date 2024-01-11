@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: addon-manager
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-manager@sha256:1c6352853505fb957f4321501a95c718637100fff760e251741d99a38e43e502
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/addon-manager@sha256:ebf656fd64208192fd120bb6dd44d37bc18d766e196d77006c8dcee7dccb91f4
         name: my-go
         resources: {}
 status: {}
