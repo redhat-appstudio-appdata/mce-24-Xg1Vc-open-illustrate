@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: registration-operator
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/registration-operator@sha256:5645df5703ae30fa140a4a118ff356398bc1b47743b7d4b8c2ab39b5d5628f70
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/registration-operator@sha256:978cda4bd239249c43d767297c692e2e566044e22c6d35979f0de6e18af6a2b3
         name: my-go
         resources: {}
 status: {}
