@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: hypershift-release-414
     app.kubernetes.io/part-of: mce-24
-  name: hypershift-release-414qkkr
+  name: hypershift-release-414v1ya
 spec:
   port:
     targetPort: 9090
