@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cluster-proxy-plyk
     app.kubernetes.io/part-of: mce-24
-  name: cluster-proxy-plykzony
+  name: cluster-proxy-plykauce
 spec:
   path: /
   port:
