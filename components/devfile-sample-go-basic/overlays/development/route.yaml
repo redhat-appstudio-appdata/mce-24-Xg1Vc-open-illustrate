@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-go-basic
     app.kubernetes.io/part-of: mce-24
-  name: devfile-sample-go-basicnsj0
+  name: devfile-sample-go-basicmsbq
 spec:
   path: /
   port:
