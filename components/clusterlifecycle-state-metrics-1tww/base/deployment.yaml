@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: clusterlifecycle-state-metrics-1tww
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterlifecycle-state-metrics-1tww@sha256:4b615a450fb321260e38fe091a3ded1c6ac58f780a1e0559e6291abb7e6ff84c
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/mce-24/clusterlifecycle-state-metrics-1tww@sha256:ae9df931a58b84c349b9b453600134859f57423989b02f1fd4bf3d721bde8cf1
         name: my-go
         ports:
         - containerPort: 8081
